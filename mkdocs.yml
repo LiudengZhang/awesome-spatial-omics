@@ -1,0 +1,103 @@
+site_name: Awesome Spatial Omics
+site_url: https://liudengzhang.github.io/awesome-spatial-omics/
+site_description: Spatial omics has more tools than any analyst can evaluate. This site organizes them by the question you're asking and the technology you're using.
+repo_url: https://github.com/LiudengZhang/awesome-spatial-omics
+repo_name: LiudengZhang/awesome-spatial-omics
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - toc.integrate
+
+extra_javascript:
+  - https://hypothes.is/embed.js
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+  - attr_list
+  - md_in_html
+
+nav:
+  - Home: index.md
+  - Pipeline:
+    - Decision Tree: pipeline/decision-tree.md
+  - Technologies:
+    - Overview: technologies/overview.md
+    - Sequencing-Based: technologies/sequencing-based.md
+    - Imaging-Based: technologies/imaging-based.md
+    - Spatial Proteomics: technologies/spatial-proteomics.md
+    - Spatial Multi-Omics: technologies/spatial-multiomics.md
+    - Spatial Metabolomics: technologies/spatial-metabolomics.md
+  - Methods:
+    - Pre-processing and QC: methods/preprocessing-qc.md
+    - Cell Segmentation: methods/cell-segmentation.md
+    - Spatially Variable Genes: methods/spatially-variable-genes.md
+    - Spatial Domains: methods/spatial-domains.md
+    - Deconvolution: methods/deconvolution.md
+    - Cell-Cell Communication: methods/cell-cell-communication.md
+    - Cell Annotation: methods/cell-annotation.md
+    - Spatial DE: methods/spatial-de.md
+    - Subcellular Analysis: methods/subcellular-analysis.md
+    - Spatial Trajectories: methods/spatial-trajectories.md
+    - Multi-modal Integration: methods/multimodal-integration.md
+    - Foundation Models: methods/foundation-models.md
+    - 3D Reconstruction: methods/3d-reconstruction.md
+  - Deep Reads:
+    - Overview: deep-reads/index.md
+    - Museum of ST: deep-reads/museum-of-st.md
+    - Visium HD: deep-reads/visium-hd.md
+    - Cellpose: deep-reads/cellpose.md
+    - nnSVG: deep-reads/nnsvg.md
+    - GraphST: deep-reads/graphst.md
+    - Cell2location: deep-reads/cell2location.md
+    - COMMOT: deep-reads/commot.md
+    - Tangram: deep-reads/tangram.md
+    - Nicheformer: deep-reads/nicheformer.md
+    - SpatialData: deep-reads/spatialdata.md
+    - Squidpy: deep-reads/squidpy.md
+    - Benchmark Synthesis: deep-reads/benchmark-synthesis.md
+  - Benchmarks:
+    - Benchmark Synthesis: benchmarks/benchmark-synthesis.md
+    - Deconvolution: benchmarks/deconvolution-benchmarks.md
+    - Clustering: benchmarks/clustering-benchmarks.md
+    - Segmentation: benchmarks/segmentation-benchmarks.md
+    - SVG Detection: benchmarks/svg-benchmarks.md
+  - Datasets:
+    - Datasets: datasets/datasets.md
+  - Synthesis:
+    - The Pipeline Problem: synthesis/pipeline-problem.md
+    - Technology-Analysis Gap: synthesis/technology-analysis-gap.md
+    - Commercial Consolidation: synthesis/commercial-consolidation.md
+  - Timeline: timeline/index.md
+  - Explorer: explorer/index.md
+  - Glossary: glossary.md
