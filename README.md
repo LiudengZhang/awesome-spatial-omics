@@ -272,6 +272,7 @@ Methods for inferring spatial developmental or signaling trajectories that accou
 
 Methods for integrating spatial data with other modalities such as single-cell RNA-seq, histology, or multi-omic measurements.
 
+- [AESTETIK](https://github.com/ratschlab/aestetik) - Autoencoder for multi-modal spatial transcriptomics representation learning with morphology and topology (Bioinformatics, 2026).
 - [SpatialGLUE](https://github.com/JinmiaoChenLab/SpatialGLUE) - Graph neural network for integrating spatial multi-omics data that jointly embeds paired spatial measurements using graph attention (Nature Methods, 2024).
 - [HEST](https://github.com/mahmoodlab/HEST) - Harmonized dataset and benchmark linking spatial transcriptomics with histology images from over 500 samples across 131 studies (Cell, 2024).
 - [moscot](https://github.com/theislab/moscot) - Multi-omic single-cell optimal transport for mapping between spatial and dissociated datasets with principled statistical foundations (Nature, 2024).
