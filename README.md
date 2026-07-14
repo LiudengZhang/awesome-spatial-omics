@@ -287,6 +287,7 @@ Methods for integrating spatial data with other modalities such as single-cell R
 
 Large pre-trained models designed for spatial biology that learn general representations from large-scale spatial datasets.
 
+- [DeepSpot-M](https://github.com/ratschlab/DeepSpotM) - Multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology (medRxiv, 2026).
 - [Nicheformer](https://github.com/theislab/nicheformer) - Transformer pre-trained on dissociated and spatial single-cell data from over 110 million cells, enabling cross-tissue niche characterization through transfer learning (bioRxiv, 2024).
 - [Novae](https://github.com/MICS-Lab/novae) - Graph foundation model for spatial transcriptomics that learns tissue architecture representations transferable across technologies and tissues (Nature Machine Intelligence, 2024).
 - [CellSAM](https://github.com/vanvalenlab/cellSAM) - Segment Anything Model adapted for cell segmentation, providing zero-shot segmentation capability across diverse microscopy image types (bioRxiv, 2024).
