@@ -372,6 +372,8 @@ Standard benchmark datasets, tissue atlases, and data repositories for spatial o
 - [Allen Brain Cell Atlas](https://portal.brain-map.org/atlases-and-data/bca) - Multimodal brain atlas combining MERFISH spatial data with single-cell RNA-seq across the entire mouse brain, the gold standard for brain spatial reference data (Allen Institute, 2023).
 - [HuBMAP](https://hubmapconsortium.org/) - Human BioMolecular Atlas Project generating spatial maps of healthy human tissues across organs, providing standardized spatial omics reference data (Nature, 2019).
 - [Human Cell Atlas](https://www.humancellatlas.org/) - International consortium building comprehensive reference maps of all human cells including spatial tissue maps from multiple organs (eLife, 2017).
+- [TCGA virtual spatial transcriptomics atlas](https://huggingface.co/datasets/ratschlab/TCGA_virtual_spatial_transcriptomics_atlas) - DeepSpot-M predicted transcriptome-wide ST for TCGA H&E (FF + FFPE); ~28.7k slides / 32 cancer types / ~296M spots (medRxiv, 2026; gated).
+- [HEST Xenium virtual spatial transcriptomics](https://huggingface.co/datasets/ratschlab/HEST_Xenium_virtual_spatial_transcriptomics) - DeepSpot-M predicted transcriptome-wide ST for 59 HEST-1k 10x Xenium H&E slides (~13M spots; medRxiv, 2026; gated).
 
 ### Repositories
 
